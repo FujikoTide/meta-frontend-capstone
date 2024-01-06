@@ -1,14 +1,15 @@
+import React from "react";
 import "./App.css";
 import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Body from "./components/Body";
+import Menu from "./components/Menu";
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
-      <Footer />
+      <Body />
+      <Menu />
     </>
   );
 }
