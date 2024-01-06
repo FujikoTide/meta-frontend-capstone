@@ -5,8 +5,8 @@ const Menu = () => {
   return (
     <div className="menu-container">
       <div className="menu-header">
-        <h2>This weeks specials!</h2>
-        <button>Order</button>
+        <h2 className="display-subtitle">This weeks specials!</h2>
+        <button className="specials">Online Menu</button>
       </div>
 
       <div className="cards">
@@ -15,11 +15,11 @@ const Menu = () => {
             <img src={recipe.image} alt={recipe.title} />
             <div className="menu-content">
               <div className="heading">
-                <h5>{recipe.title}</h5>
-                <p>{recipe.price}</p>
+                <p className="card-title">{recipe.title}</p>
+                <p className="card-title">${recipe.price}</p>
               </div>
-              <p>{recipe.description}</p>
-              <button className="orderBtn">Order Now</button>
+              <p className="paragraph-text">{recipe.description}</p>
+              <button className="orderBtn specials">Order Now</button>
             </div>
           </div>
         ))}

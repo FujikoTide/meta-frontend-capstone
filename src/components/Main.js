@@ -7,14 +7,18 @@ const Main = () => {
     <main className="main">
       <section>
         <div className="banner">
-          <h2>Little Lemon</h2>
-          <h3>Chicago</h3>
-          <p>
+          <p className="paragraph-text">
+            <span className="display-title yellow">Little Lemon</span>
+            <br />
+            <span className="display-subtitle">Chicago</span>
+            <br />
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
           <Link to="/booking">
-            <button aria-label="On Click">Reserve Table</button>
+            <button aria-label="On Click" className="specials">
+              Reserve Table
+            </button>
           </Link>
         </div>
         <div className="banner-img">

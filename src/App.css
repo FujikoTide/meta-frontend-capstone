@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700;800&family=Markazi+Text:wght@400;500&display=swap');
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -67,6 +69,54 @@ nav ul li a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+.display-title {
+  font-family: "Markazi", 'Times New Roman', Times, serif;
+  font-weight: 500;
+  font-size: 64pt;
+}
+
+.display-subtitle {
+  font-family: "Markazi", 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 40pt;
+}
+
+.lead-text {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 18pt;
+}
+
+.section-title {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 20pt;
+}
+
+.specials {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 16pt;
+}
+
+.card-title {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 18pt;
+}
+
+.paragraph-text {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  line-height: 1.5;
+}
+
+.highlight-text {
+  font-family: "Karla", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16pt;
+}
 
 /* header section */
 
@@ -81,10 +131,18 @@ nav ul li a:hover {
   position: relative;
 }
 
+h1 {
+  width: 100%;
+  text-align: center;
+}
 
 h2 {
   color: #F4CE14;
   font-size: 40px;
+}
+
+.yellow {
+  color: #F4CE14;
 }
 
 h3 {
@@ -194,7 +252,6 @@ label {
 }
 
 .menu-items {
-  /* height: 400px; */
   width: 350px;
   background: #a9c8be;
   border-radius: 8px;
@@ -219,8 +276,6 @@ label {
 .orderBtn {
   padding: 5px 12px;
   margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: 600;
 }
 
 footer section {
@@ -292,7 +347,7 @@ footer ul li {
   }
 
 
-  .m ain section,
+  .main section,
   .menu-container {
     padding: 10px 8%;
   }

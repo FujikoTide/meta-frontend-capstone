@@ -6,36 +6,36 @@ const Footer = () => {
   return (
     <footer>
       <section>
-        <div className="conpany-info">
+        <div className="company-info">
           <img src={logo} alt="logo" />
         </div>
         <div>
-          <h3>Contact</h3>
+          <h3 className="specials">Contact</h3>
           <ul>
-            <li>
+            <li className="paragraph-text">
               Address: <br />
-              987 Some Road, CA
+              987 Some Road, IL
             </li>
-            <li>
+            <li className="paragraph-text">
               Phone: <br />
               987 654 321
             </li>
-            <li>
+            <li className="paragraph-text">
               Email: <br />
               contact@littlelemon.com
             </li>
           </ul>
         </div>
         <div>
-          <h3>Socials</h3>
+          <h3 className="specials">Socials</h3>
           <ul>
-            <li>
+            <li className="paragraph-text">
               <a href="https://www.facebook.com">Facebook</a>
             </li>
-            <li>
+            <li className="paragraph-text">
               <a href="https://www.instagram.com">Instagram</a>
             </li>
-            <li>
+            <li className="paragraph-text">
               <a href="https://www.twitter.com">Twitter</a>
             </li>
           </ul>

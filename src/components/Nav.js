@@ -20,7 +20,7 @@ const Nav = () => {
       </div>
 
       {/* nav items */}
-      <ul className={`nav-links ${menuOpen ? "visible" : ""}`}>
+      <ul className={`highlight-text nav-links ${menuOpen ? "visible" : ""}`}>
         <li>
           <a href="/">Home</a>
         </li>
