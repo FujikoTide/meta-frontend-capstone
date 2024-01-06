@@ -216,7 +216,7 @@ label {
   justify-content: space-between;
 }
 
-.orderbtn {
+.orderBtn {
   padding: 5px 12px;
   margin-bottom: 20px;
   font-size: 16px;
@@ -292,7 +292,7 @@ footer ul li {
   }
 
 
-  .m    ain section,
+  .m ain section,
   .menu-container {
     padding: 10px 8%;
   }

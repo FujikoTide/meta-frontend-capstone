@@ -9,7 +9,21 @@ const Menu = () => {
         <button>Order</button>
       </div>
 
-      <div>{}</div>
+      <div className="cards">
+        {recipes.map((recipe) => (
+          <div key={recipe.id} className="menu-items">
+            <img src={recipe.image} alt={recipe.title} />
+            <div className="menu-content">
+              <div className="heading">
+                <h5>{recipe.title}</h5>
+                <p>{recipe.price}</p>
+              </div>
+              <p>{recipe.description}</p>
+              <button className="orderBtn">Order Now</button>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
