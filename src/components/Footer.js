@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="company-info">
           <img src={logo} alt="logo" />
         </div>
-        <div>
+        <div className="green">
           <h3 className="specials">Contact</h3>
           <ul>
             <li className="paragraph-text">
@@ -27,16 +27,22 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h3 className="specials">Socials</h3>
+          <h3 className="specials green">Socials</h3>
           <ul>
             <li className="paragraph-text">
-              <a href="https://www.facebook.com">Facebook</a>
+              <a href="https://www.facebook.com" className="green">
+                Facebook
+              </a>
             </li>
             <li className="paragraph-text">
-              <a href="https://www.instagram.com">Instagram</a>
+              <a href="https://www.instagram.com" className="green">
+                Instagram
+              </a>
             </li>
             <li className="paragraph-text">
-              <a href="https://www.twitter.com">Twitter</a>
+              <a href="https://www.twitter.com" className="green">
+                Twitter
+              </a>
             </li>
           </ul>
         </div>

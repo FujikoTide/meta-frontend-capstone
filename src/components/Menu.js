@@ -15,10 +15,10 @@ const Menu = () => {
             <img src={recipe.image} alt={recipe.title} />
             <div className="menu-content">
               <div className="heading">
-                <p className="card-title">{recipe.title}</p>
-                <p className="card-title">${recipe.price}</p>
+                <p className="card-title dark-grey">{recipe.title}</p>
+                <p className="card-title green">${recipe.price}</p>
               </div>
-              <p className="paragraph-text">{recipe.description}</p>
+              <p className="paragraph-text dark-grey">{recipe.description}</p>
               <button className="orderBtn specials">Order Now</button>
             </div>
           </div>

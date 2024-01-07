@@ -5,7 +5,7 @@ const ConfirmBooking = () => {
     <div className="confirm">
       <div>
         <h1 className="display-subtitle">
-          Booking has been <span>Confirmed!</span>
+          Booking has been <span className="green">Confirmed!</span>
         </h1>
       </div>
     </div>
